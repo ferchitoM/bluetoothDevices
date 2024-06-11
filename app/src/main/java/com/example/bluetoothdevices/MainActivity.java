@@ -150,8 +150,8 @@ public class MainActivity extends AppCompatActivity {
 
     private boolean checkAdaptersEnabled(){
         //Creamos unas variables para almacenar si los dispositivos están activados o no
-        Boolean bluetoothEnabled = true;
-        Boolean locationEnabled = true;
+        boolean bluetoothEnabled = true;
+        boolean locationEnabled = true;
 
         //Verificamos si el Bluetooth NO está activado, de ser así mostramos un mensaje
         if(!bluetoothAdapter.isEnabled()){
